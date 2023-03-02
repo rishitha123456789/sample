@@ -1,15 +1,22 @@
-import React from "react";
-import Navbar from "./Navbar";
+import React, { StrictMode, Suspense } from "react";
+import Navbar from "./ClassBased/Navbar";
+import Footer from "./ClassBased/Footer";
+import Carousel from "./ClassBased/Carousel";
+import Card from "./ClassBased/Card";
+import Card2 from "./ClassBased/Card2";
+
 const App=()=>{
     return(
         <div>
             <Navbar/>
-            <h1>hello react</h1>
-            <p>2+2</p>
-            <p>{2+2}</p>
-            <p>javascript</p>
-            <p>html</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsum sed quo libero, earum cupiditate nam adipisci ducimus asperna</p>
+            <br /><br /><br />
+            <Carousel/>
+            <br /><br /><br />
+            <Card/>
+            <br /><br />
+            <Card2/>
+            <Footer/>
+           
         </div>
     );
 }
