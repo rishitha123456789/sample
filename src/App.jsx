@@ -6,6 +6,7 @@ const App=()=>{
             <p>2+2</p>
             <p>{2+2}</p>
             <p>javascript</p>
+            <p>html</p>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam ipsum sed quo libero, earum cupiditate nam adipisci ducimus asperna</p>
         </div>
     );
