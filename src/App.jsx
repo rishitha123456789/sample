@@ -1,7 +1,9 @@
 import React from "react";
+import Navbar from "./Navbar";
 const App=()=>{
     return(
         <div>
+            <Navbar/>
             <h1>hello react</h1>
             <p>2+2</p>
             <p>{2+2}</p>
