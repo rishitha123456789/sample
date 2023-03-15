@@ -1,0 +1,51 @@
+img{
+    margin-left: 60px;
+}
+p{
+    display: inline;
+    margin: 30px;
+}
+div{
+    display: flex;
+  
+}
+p:hover{
+  color: red;
+}
+body{
+    /* position: fixed; */
+}
+
+div p::after{
+   content: "";
+   height: 3px;
+   width: 0px;
+   /* color:red; */
+   /* background-color: orange; */
+   margin: auto;
+   display: block;
+
+}
+
+div p:hover::after{
+    /* color: green; */
+    background-color: red;
+   width: 100%;
+   transition: width 0.5s linear;
+}
+ button{
+    position: relative;
+    left: 350px;
+    top: 10px;
+    height: 40px;
+    margin: 10px;
+}
+/* div button.btn-danger{
+    position: relative;
+    right: 20px;
+} */
+/* div button.btn-outline-dark{
+    position: relative;
+    left: 50px;
+} */
+
